@@ -83,6 +83,26 @@ namespace VeterinarioBasic.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap EPRestasi {
+            get {
+                object obj = ResourceManager.GetObject("EPRestasi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap film_adhesif_aspect_marbre_blanc {
+            get {
+                object obj = ResourceManager.GetObject("film-adhesif-aspect-marbre-blanc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_1140403399_1024x1024 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-1140403399-1024x1024", resourceCulture);

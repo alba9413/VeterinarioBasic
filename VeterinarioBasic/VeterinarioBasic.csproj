@@ -104,5 +104,11 @@
   <ItemGroup>
     <None Include="Resources\Sin título-1 %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EPRestasi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\film-adhesif-aspect-marbre-blanc.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
