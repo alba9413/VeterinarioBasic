@@ -12,8 +12,8 @@ namespace VeterinarioBasic
 {
     public partial class VentanaLogin : Form
     {
-        //Conexion miConexion = new Conexion();
-       // Registro miRegistro = new Registro();
+        conexion Conexion = new conexion();
+
         public VentanaLogin()
         {
             InitializeComponent();
@@ -21,22 +21,18 @@ namespace VeterinarioBasic
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //if (miConexion.loginClientes(user.Text, pass.Text))
-            //{
-            //    this.Hide();
-            //    VentanaPrincipal v = new VentanaPrincipal();
-            //    v.Show();
-            //}
-            //else
-            //{
-            //    MessageBox.Show("usuario o contraseña incorrrectos");
-            //}
-        }
+            if (Conexion.loginVeterinario(textBox1.Text, textBox2.Text))
+            {
+                this.Hide();
+                VentanaPrincipal vp = new VentanaPrincipal();
+                vp.Show();
+            }
+            else
+            {
+                MessageBox.Show("usuario o contraseña incorrrectos");
+            }
+            
 
-        private void registro_Click(object sender, EventArgs e)
-        {
-            //this.Hide();
-            //miRegistro.Show();
         }
     }
 }
